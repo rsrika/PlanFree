@@ -3,9 +3,9 @@ import { Route, Routes } from 'react-router-dom';
 import { useNavigate } from 'react-router';
 import "./css/style.css";
 
-import {Home} from './jss/Home.js.js';
-import {Survey} from './jss/Survey.js.js';
-import {About} from './jss/About.js.js';
+import {Home} from './js/Home.js';
+import {Survey} from './js/Survey.js';
+import {About} from './js/About.js';
 
 
 function App() {
