@@ -160,4 +160,71 @@ nav {
     margin-top: 200%;
 }
 
+.normal-title {
+   
+  font-style: normal;
+  font-weight: 500;
+  font-size: 42px;
+  line-height: 51px;
+
+  color: #000000;
+}
+
+.emergency {
+  font-weight: 700;
+  font-size: 84px;
+  line-height: 102px;
+  color: #000000;
+
+}
+
+.contraceptives {
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 73px;
+  color: #FF72AC;
+}
+.descriptive-text {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+}
+.image-home {
+  margin-left: 20%;
+}
+.section-header {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 58px;
+}
+
+.about-title {
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 78px;
+}
+.blue {
+  color: #4D96FF;
+}
+.pink {
+  color: #FF72AC;
+}
+
+/* spacing */
+.spacer {
+    height: 100px;
+}
+.half-spacer {
+    height: 50px;
+}
+.big-spacing {
+    margin-top: 200%;
+}
+
+.hl {
+  color: #00000090;
+  background-color: #00000090;
+  height: 2px;
+  margin: 2%;
+}
 
