@@ -15,11 +15,12 @@ export function About(props) {
                     <h1 className="about-title">Plan Free is <span className="blue">building bridges</span> and <span className="pink">making impact.</span></h1>
                 </div>
                 <div className='col'>
-                    <div className="half-spacer"/>
-                    <p className='descriptive-text'>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed id enim vel nunc aliquet congue. Nulla sit amet laoreet lacus. More lorem ipsum text here. 
+                    <br/>
+                    <p className='descriptive-text mx-5'>
+                    Students often experience emotions such as shame, guilt, and anxiety when purchasing solutions. This deters many people from wanting to go out in public to purchase EC. Additionally, while there are alternative methods to purchasing the product in-person at full-price, they often do not have the time to research options. Plan Free aims to bridge that gap by easing access to EC's. 
                     </p>
                 </div>
+                <div className='spacer'/>
             </div>
             <div className='row'>
                 <div className='container'>
@@ -36,23 +37,27 @@ export function About(props) {
             </div>
             <div className='container'>
                 <div className='row'>
-                    <div className='mx-auto col-4'>
+                    <div className='mx-auto col-4 text-center'>
                         <img className="mx-auto d-block p-5" src="./img/Roshni.jpg" alt="Roshni Srikanth"/>
-                        <p className='descriptive-text'>Roshni Srikanth</p>
+                        <p className='mx-auto d-block descriptive-text'>Roshni Srikanth</p>
                     </div>
-                    <div className='mx-auto col-4'>
+                    <div className='mx-auto col-4 text-center'>
                         <img className="mx-auto d-block p-5" src="./img/Gargi.jpeg" alt="Gargi Panatula"/>
+                        <p className='mx-auto d-block descriptive-text'>Gargi Panatula</p>
                     </div>
-                    <div className='col-4'>
+                    <div className='mx-auto col-4 text-center'>
                         <img className="mx-auto d-block p-5" src="./img/Miyu.jpeg" alt="Miyu Ozawa"/>
+                        <p className='mx-auto d-block descriptive-text'>Miyu Ozawa</p>
                     </div>
                 </div>
                 <div className='row'>
-                    <div className='col-4'>
-                        <img className="mx-auto d-block p-5" src="./img/James.jpeg" alt="James Zarowski"/>
+                    <div className='col text-center'>
+                        <img className="mx-auto d-block p-5 image-fluid" src="./img/James.jpeg" alt="James Zagorski"/>
+                        <p className='mx-auto d-block descriptive-text'>James Zagorski</p>
                     </div>
-                    <div className='col-4'>
-                        <img className="mx-auto d-block p-5" src="./img/Cindy.jpeg" alt="Cindy Chen"/>
+                    <div className='col text-center'>
+                        <img className="mx-auto d-block p-5 image-fluid" src="./img/Cindy.jpeg" alt="Cindy Chen"/>
+                        <p className='mx-auto d-block descriptive-text'>Cindy Chen</p>
                     </div>
                 </div>
                 

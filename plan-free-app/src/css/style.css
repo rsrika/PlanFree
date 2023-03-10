@@ -228,3 +228,13 @@ nav {
   margin: 2%;
 }
 
+.card {
+  border-radius: 10px;
+  box-shadow: 0px 4px 16px #00000030; 
+
+}
+
+
+.card a:hover {
+  background-color: #FF72AC;
+}
