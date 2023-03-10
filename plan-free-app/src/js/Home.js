@@ -20,11 +20,11 @@ export function Home(props) {
                         <span className="contraceptives">CONTRACEPTIVES</span>
                     </div>
                     <br/>
-                    <div className='row'>
+                    {/* <div className='row'>
                         <p className="descriptive-text">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed id enim vel nunc aliquet congue. Nulla sit amet laoreet lacus. Suspendisse malesuada arcu pretium, convallis elit ut, malesuada ex. Nunc quis pulvinar ante
                         </p>
-                    </div>
+                    </div> */}
                 </div>
                 <div className='col col-text'>
                     <img className="image-home" src="./img/Group 31.png" alt="drawing of woman in lab coat leaning against a calendar" />
