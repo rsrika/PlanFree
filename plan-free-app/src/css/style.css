@@ -238,3 +238,31 @@ nav {
 .card a:hover {
   background-color: #FF72AC;
 }
+
+#map {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 800px;
+}
+
+/* Sets size of map, which has class name "leaflet-container" */
+.leaflet-container {
+  width: 800px;
+  height: 600px;
+  align-items: center;
+  justify-content: center;
+}
+
+.Map {
+  width: 800px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+}
+
+/*.Map {*/
+/*  width: 800px;*/
+/*  height: 600px;*/
+/*}*/

@@ -36,3 +36,19 @@
     transform: rotate(360deg);
   }
 }
+
+#map {
+  margin: 20px auto;
+  width: 800px;
+}
+
+/* Sets size of map, which has class name "leaflet-container" */
+.leaflet-container {
+  width: 800px;
+  height: 600px;
+}
+
+.Map {
+  width: 800px;
+  height: 600px;
+}
