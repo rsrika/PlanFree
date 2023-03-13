@@ -58,7 +58,7 @@ export function Home(props) {
             <div className='container'>
                 <div className="question">
                     <h2 className="blue">Do I need a perscription to get them?</h2>
-                    <p className='descriptive-text'>Legally, in Washington state,You can get some types of birth control – like condoms, spermicide, the vaginal sponge, and emergency contraception pills – at a pharmacy, drug store, or online without a prescription. Some common places to get these are places like CVS, Bartells, or Walmart. There are also a number of On-Campus resources if you are a student at the UW. However, it is important to note that <span className="pink">regardless of the regulation, some pharmacies still require a doctor's prescription.</span></p>
+                    <p className='descriptive-text'>Legally, in Washington state,You can get some types of birth control – like condoms, spermicide, the vaginal sponge, and emergency contraception pills – at a pharmacy, drug store, or online without a prescription. Some common places to get these are places like CVS, Bartells, or Walmart. There are also a number of On-Campus resources if you are a student at the UW. However, it is important to note that <span className="pink">regardless of the regulation, some pharmacies still require a doctor's perscription.</span></p>
                 </div>
                 <div className="question">
                     <h2 className="blue">What are emergency contraceptives (ECs)?</h2>
