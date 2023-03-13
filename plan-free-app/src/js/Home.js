@@ -37,7 +37,7 @@ export function Home(props) {
         <div className="map-section">
             <div className='container'>
                 <p className="section-header">Immediate Resources</p>
-                <p className="descriptive-text">Where to go if you need immediate help on campus. *This page will be edited later to have icons on the map with popups* </p>
+                <p className="descriptive-text">Where to go if you need immediate help on campus.</p>
             </div>
             <div className='container'>
                 <div className='half-spacer'/>
