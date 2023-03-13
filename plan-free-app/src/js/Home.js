@@ -1,5 +1,6 @@
 import React from 'react'
 import { NavBar } from './Navbar'
+import { Map } from './Map.js'
 
 
 export function Home(props) {
@@ -40,9 +41,8 @@ export function Home(props) {
             </div>
             <div className='container'>
                 <div className='half-spacer'/>
-                 {/* MAP GOES HERE @GARGI - pls feel free to delete the image below*/}
-                <div className='row'>
-                    <img className="image-fluid" src="./img/image 1.png" alt="map of the UW campus"/>
+                <div className={'leaflet-container'}>
+                    <Map></Map>
                 </div>
             </div>
             
@@ -57,7 +57,7 @@ export function Home(props) {
             <br/>   
             <div className='container'>
                 <div className="question">
-                    <h2 className="blue">Do I need a perscription to get them?</h2>
+                    <h2 className="blue">Do I need a prescription to get them?</h2>
                     <p className='descriptive-text'>Legally, in Washington state,You can get some types of birth control – like condoms, spermicide, the vaginal sponge, and emergency contraception pills – at a pharmacy, drug store, or online without a prescription. Some common places to get these are places like CVS, Bartells, or Walmart. There are also a number of On-Campus resources if you are a student at the UW. However, it is important to note that <span className="pink">regardless of the regulation, some pharmacies still require a doctor's prescription.</span></p>
                 </div>
                 <div className="question">
